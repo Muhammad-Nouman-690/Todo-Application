@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Application</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <style>
+        div {
+          background-color: lightgrey;
+          width: 400px;
+          border: 15px solid burlywood;
+          padding: 50px;
+          margin: auto;
+
+        }
+        </style>
+</head>
+<body>
+
+    <h1 class="heading">Todo List</h1>
+
+<div>
+    <input type="text" placeholder="Enter Your Todo List" id="todo-item" >
+    <br> <br>
+    <button  onclick="addTodo()" type="button" class="btn btn-outline-secondary">ADD ITEM</button> 
+    <button  onclick="deleAll()" type="button" class="btn btn-outline-secondary">DELETE ALL</button>
+</div>
+<br><br>
+<div>
+    <ul id="list" >
+
+    </ul>
+</div>
+    
+</body>
+<script src="app.js"></script>
+</html>
