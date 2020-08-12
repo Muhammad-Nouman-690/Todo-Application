@@ -12,7 +12,7 @@ function addTodo(){
 
     // edit
     var editBtn = document.createElement('button')
-    var editText = document.createTextNode('Edit')
+    var editText = document.createTextNode('EDIT')
     editBtn.appendChild(editText)
     editBtn.setAttribute("class","btn btn-outline-secondary")
     editBtn.setAttribute("onclick","editItem(this)")
@@ -20,7 +20,7 @@ function addTodo(){
 
      // Delete
      var delBtn = document.createElement('button')
-     var delText = document.createTextNode('Delete')
+     var delText = document.createTextNode('DELETE')
      delBtn.appendChild(delText)
      delBtn.setAttribute("class","btn btn-outline-secondary")
      delBtn.setAttribute("onclick","delItem(this)")
